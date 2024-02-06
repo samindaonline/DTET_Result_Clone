@@ -1,0 +1,222 @@
+@import url("fontello.css");
+
+.print-title{
+  font-size: 20px;
+}
+.print-sub-title{
+  font-size: 18px;
+}
+.print-paragraph{
+  font-size: 16px;
+}
+.h-95{
+  height: 95%;
+}
+
+.result-header{
+ padding: 12px;
+ color: white;
+ margin-bottom: 2rem;
+ background-color: #2889ae;
+ border-radius: 0.3rem;
+}
+.result-main-box{
+ margin-bottom: 2rem;
+ background-color: #f9f9f9;
+ border: 1px solid #2889ae;
+ border-radius: 0.3rem;
+}
+.topic{
+ background-color: #007bff;
+}
+
+[class*='sidebar-dark-'] .nav-treeview > .nav-item > .nav-link.active, [class*='sidebar-dark-'] .nav-treeview > .nav-item > .nav-link.active:hover, [class*='sidebar-dark-'] .nav-treeview > .nav-item > .nav-link.active:focus {
+    background-color: rgb(101, 172, 255);
+    color: #343a40;
+}
+
+@media (min-width: 1024px){
+  .online-transcript {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    clear: both;
+  }
+}
+/**buttons**/
+
+.btn-primary {
+  color: #fff;
+  background-color: #2889ae;
+  border-color: #2889ae;
+}
+.btn-info {
+  color: #fff;
+  background-color: #a2a2a2;
+  border-color: #a2a2a2;
+}
+
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1b627d;
+  border-color: #1b627d;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #1b627d;
+  border-color: #1b627d;
+}
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #2889ae;
+  border-color: #2889ae;
+}
+.btn-info:hover {
+  color: #fff;
+  background-color: #7d7a7a;
+  border-color: #7d7a7a;
+}
+.btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active, .show > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #7d7a7a;
+  border-color: #7d7a7a;
+}
+
+
+/* viewresult page*/
+
+.alert-secondary-custom {
+  color: #ffff;
+  background-color: #2889ae;
+  border-color: #2889ae;
+}
+.view-result-main-box{
+	margin-bottom: 2rem;
+	background-color: #ffffff;
+	border: 1px solid #cac4c4;
+	border-radius: 0.3rem;
+	padding: 14px;
+}
+.line {
+	border-bottom: 3px solid #2889ae;
+	width: 100%;
+}
+
+.line-light {
+	width: 100%;
+	border-bottom: 1px solid #2889ae;
+}
+
+.line-end {
+	width: 100%;
+	border-bottom: 3px solid #2889ae;
+}
+
+.data {
+	background-color: #dcdddf;
+	padding-left: 45px;
+}
+
+.data .data-box {
+	margin-top: 60px;
+}
+
+.data .data-box .data-separator {
+	border-top: 1px solid #949597;
+	width: 10%;
+}
+.content-wrapper {
+  background: #ffffff;
+}
+.content {
+	background-color: #ffffff;
+	padding-right: 45px;
+}
+.content-header {
+  background-color: #fbfafa;
+}
+
+.without-margin {
+	margin: 0 !important;
+}
+
+/* To break in pages, please use this class */
+/* https://github.com/barryvdh/laravel-snappy/issues/2 */
+.page
+{
+	page-break-after: always;
+	page-break-inside: avoid;
+}
+
+div.login-box {
+  float: none;
+  margin: 0 auto;
+  clear: both;
+}
+
+
+/**Student Login**/
+.input-icon {
+  position: relative;
+}
+
+.input-icon input {
+  padding-left: 45px;
+}
+
+.input-icon i {
+  font-size: 16px;
+  left: 6px;
+  line-height: 22px;
+  position: absolute;
+  top: 9px;
+}
+.login-box .input-icon i {
+  color: #555;
+  opacity: 0.6;
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+}
+.inner-section{
+  padding-top: 20px;
+}
+
+.RbtnMargin {
+ margin-left: 5px;
+  }
+
+/**profile styles**/
+.list-group-item:last-child {
+  border: none;
+}
+@media only screen 
+and (min-device-width: 768px) {
+  .profile-card.card {
+    min-height: 750px;
+  }
+}
+/**print styles**/
+.print-body {
+  margin-bottom: 0px;
+  background-color: #ffffff;
+  border: 1px solid #cac4c4;
+  border-radius: 0.3rem;
+  padding: 18px;
+}
+
+@media print {
+  .printContainer {
+    width: 100%;
+    margin: auto;
+    page-break-after: always;
+  }
+  body {
+    -webkit-print-color-adjust: exact !important;
+  }
+  .print-footer{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
